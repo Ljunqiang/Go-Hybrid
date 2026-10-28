@@ -1,7 +1,7 @@
 # tests/checker-corpus — adversarial programs with pre-registered verdicts
 
-**Current registered corpus: 127 programs — ACCEPT 39 · ACCEPT-MANAGED 2 · REJECT 86 — each with a machine-readable `// EXPECTED-VERDICT:` header and a
-**Current registered corpus: 127 programs — ACCEPT 39 · ACCEPT-MANAGED 2 · REJECT 86 — each with a machine-readable `// EXPECTED-VERDICT:` header and a
+**Current registered corpus: 128 programs — ACCEPT 40 · ACCEPT-MANAGED 2 · REJECT 86 — each with a machine-readable `// EXPECTED-VERDICT:` header and a
+**Current registered corpus: 128 programs — ACCEPT 40 · ACCEPT-MANAGED 2 · REJECT 86 — each with a machine-readable `// EXPECTED-VERDICT:` header and a
 row in [VERDICTS.md](VERDICTS.md). The 18 originally registered here were
 written BEFORE the Phase-1 checker existed; that registration grew to 20
 during the 2026-10-12 integration, and every case after it was added
@@ -331,5 +331,5 @@ Reproduction (branch tree, rustc 1.99.0 / go1.26.9 + mingw-w64 gcc):
 tripwire not fired**; `python3 tools/differential_loop.py` reports
 **accept-side 41/41 (build+run, stdout matched), reject-side 86/86**.
 
-With this registration the corpus is **127 programs: ACCEPT 39 -
+With this registration the corpus is **128 programs: ACCEPT 40 -
 ACCEPT-MANAGED 2 - REJECT 86** - main's 126 plus this one.
